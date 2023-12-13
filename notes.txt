@@ -1,0 +1,7 @@
+npm install -g typescript               //install typescript
+tsc --init                              //initialize app will add tsconfig.json 
+tsc <file-name>                         //to typecheck program from terminal.
+tsc --noEmitOnError <file-name>         // to not emit/ignore errors
+tsc --target <es-version> <file-name>   // specify javascript version ES3 is default
+tsc --strict <file-name>                // to enable strict type checking
+tsc -p tsconfig.json                     //compile program using tsconfig.json 
